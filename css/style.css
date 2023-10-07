@@ -25,6 +25,7 @@
 }
 /* HEADER_END */
 
+/* PLANETAS */
 #planets nav {
     display: flex;
     padding-left: 65em;
@@ -32,7 +33,6 @@
     
 }
 
-/* PLANETAS */
 #planets ul{
     display: flex;
     list-style: none;
