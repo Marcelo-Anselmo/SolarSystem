@@ -36,6 +36,11 @@ body {
     text-transform: uppercase;
 }
 
+#header-content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 /* #uni {
     font-size: 82px;
 } */
