@@ -16,44 +16,48 @@
     color: aliceblue;
 }
 
-#header span {
-    color: rgba(255, 255, 0, 0.788);
-}
 
-#header img {
-    width: 70px;
-}
 /* HEADER_END */
 
 /* PLANETAS */
 #planets nav {
     display: flex;
-    padding-left: 65em;
-    width: 100%;
-    
+    padding-left: 140%;
+    width: 100%;    
 }
 
 #planets ul{
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 3rem;
+
 }
 /* PLANETAS-END*/
 
 /* LINKS */
 a{
+    text-align: right;
     color: aliceblue;
     text-decoration: none;
-    font-size: 16px;
+    text-transform: uppercase;
+    font-size: 18px;
     font-weight: 500;
 }
 
-a:hover {
+a:hover{
+    font-size: 10px;
+    transition: font-size 0.5s ease-in-out;
+}
+a.grande:hover{
+    font-size: 60px;
+}
+
+/*a:hover {
     color: purple;
     background-color: rgba(255, 255, 255, 0.799);
     box-shadow: 3px 2px 2px 2px rgba(255, 255, 255, 0.471);
     border-radius: 10px;
     padding: 10px;
-    transition: 0.5s;
-}
+    transition: 0.3s;
+}*/
 /* LINKS-END */
