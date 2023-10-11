@@ -6,9 +6,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    /* background-image: url(/img/JamesWebb/img01.jpeg); */
-    /* background-image: url(/img/imagensDeFundo/constelações.jpg); */
+#solar {
+    color: rgb(239, 239, 13);
 }
 
 /* HEADER */
@@ -25,8 +24,6 @@ body {
     color: aliceblue;
 }
 
-<<<<<<< HEAD
-=======
 #header-content {
     margin-top: 18rem;
     padding-bottom: 9rem;
@@ -48,69 +45,41 @@ body {
     font-size: 82px;
 } */
 
-#solar {
-    color: rgba(255, 255, 0, 0.788);
+#header img {
+    width: 70px;
 }
->>>>>>> 3180d800cda523862aa1fd5a293b322494ed1b72
-
 /* HEADER_END */
 
 /* PLANETAS */
 #planets nav {
     display: flex;
-<<<<<<< HEAD
-    padding-left: 140%;
-    width: 100%;    
-=======
     justify-content: flex-end;
     margin-left: 28rem;
     width: 100%;
->>>>>>> 3180d800cda523862aa1fd5a293b322494ed1b72
 }
 
 #planets ul{
     display: flex;
     list-style: none;
-    gap: 3rem;
-
+    gap: 2rem;
 }
 /* PLANETAS-END*/
 
 /* LINKS */
 a{
-    text-align: right;
     color: aliceblue;
     text-decoration: none;
-<<<<<<< HEAD
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 500;
-=======
     font-size: 16px;
     font-weight: bolder;
     text-transform: uppercase;
->>>>>>> 3180d800cda523862aa1fd5a293b322494ed1b72
 }
 
-a:hover{
-    font-size: 10px;
-    transition: font-size 0.5s ease-in-out;
-}
-a.grande:hover{
-    font-size: 60px;
-}
-
-/*a:hover {
+a:hover {
     color: purple;
     background-color: rgba(255, 255, 255, 0.799);
     box-shadow: 3px 2px 2px 2px rgba(255, 255, 255, 0.471);
     border-radius: 10px;
     padding: 10px;
-<<<<<<< HEAD
-    transition: 0.3s;
-}*/
-/* LINKS-END */
-=======
     transition: 0.5s;
 }
 /* LINKS-END */
@@ -151,4 +120,31 @@ a.grande:hover{
     font-weight: 400;
     line-height: 45px;
 }
->>>>>>> 3180d800cda523862aa1fd5a293b322494ed1b72
+
+#planets-cards {
+    background-image:  url(/img/imagensDeFundo/missões.jpg);
+    background-position: 100%;
+    padding-top: 9rem;
+}
+
+#planets-cards h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    text-shadow: -3px -2px 5px rgba(241, 223, 223, 0.807);
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-weight: bolder;
+}
