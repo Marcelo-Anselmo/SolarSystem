@@ -11,6 +11,14 @@ html {
     scroll-behavior: smooth;
 }
 
+#burg-menu {
+    display: none;
+}
+
+#burg-button {
+    display: none;
+}
+
 #solar {
     color: rgb(239, 239, 13);
 }
@@ -216,11 +224,19 @@ h1{
         width: 100%;
     }
 
+    /* BURG-MENU */
+
     #burg-menu {
         display: none;
+        margin: 1rem auto;
+    }
+
+    #burg-menu ul {
+        list-style: none;
     }
 
     #burg-button {
+        display: inline-block;
         margin-left: auto;
         padding: 0.3rem;
         background-color: transparent;
