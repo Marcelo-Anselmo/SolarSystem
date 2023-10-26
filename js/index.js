@@ -8,6 +8,22 @@
 
 let burgButton = document.getElementById("burg-button");
 let burgMenu = document.getElementById("burg-menu");
+let btnTop = document.getElementById("btn-Top");
+
+btnScrollTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}
+
+window.onscroll = function(){
+    if(window.scrollY > 200) {
+        btnTop.style.display = "flex"
+    } else if(window.scrollY <= 5){
+        btnTop.style.display = "none"
+    }
+}
 
 burgButton.addEventListener("click", function() {
     if(burgMenu.style.display === "block") {
