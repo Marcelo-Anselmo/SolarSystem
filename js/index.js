@@ -17,19 +17,13 @@ btnScrollTop = () => {
     })
 }
 
-btnTop.addEventListener("scroll", function(){
-    let element = document.getElementById("header");
-    let y = element.offsetTop;
-    let x = element.offsetLeft;
-    console.log("Element Y: " + y);
-    console.log("Element X: " + x);
-
-    if(window.scrollY(y) > 200 && btnTop.style.display === "none") {
+window.onscroll = function(){
+    if(window.scrollY > 200) {
         btnTop.style.display = "flex"
-    } else {
-        // btnTop.style.display = "none"
+    } else if(window.scrollY <= 5){
+        btnTop.style.display = "none"
     }
-})
+}
 
 burgButton.addEventListener("click", function() {
     if(burgMenu.style.display === "block") {

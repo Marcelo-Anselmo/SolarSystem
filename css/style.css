@@ -297,6 +297,7 @@ h1{
 
     #header-content p {
         font-size: 1rem;
+        padding-bottom: 1rem;
     }
 
     /* HEADER-END */
